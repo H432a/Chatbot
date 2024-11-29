@@ -2,6 +2,7 @@
 
 ## Project Overview:
 This project aims to develop an automated chatbot system that enhances customer service and offers personalized menu recommendations for café customers. By leveraging a rule-based approach, the chatbot provides real-time responses to customer queries, utilizing a predefined dataset of menu items and customer feedback. The system is designed to offer tailored suggestions based on customer preferences, ensuring a personalized experience.
+Please look into the attached file - cafe chatbot.pdf in the repository
 
 ---
 
