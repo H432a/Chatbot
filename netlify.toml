@@ -1,10 +1,10 @@
 [build]
-  publish = "/"
+  publish = "templates"  
   functions = "netlify/functions"
 
 [dev]
   functions = "netlify/functions"
-  publish = "/"
+  publish = "templates"  
   port = 3000
 
 [context.production.environment]
