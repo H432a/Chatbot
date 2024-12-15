@@ -5,7 +5,7 @@ import logging
 # Configure logging for debugging
 logging.basicConfig(level=logging.INFO)
 
-app = Flask(__name__, static_url_path='/static')
+app = Flask(__name__, static_url_path='/templates')
 
 # Load the datasets with error handling
 try:
