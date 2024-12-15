@@ -41,5 +41,9 @@ def ask():
     response = get_response(user_input)
     return jsonify({'response': response})
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# Serverless-wsgi integration to handle the Flask app
+from serverless_wsgi import handle_request
+
+def handler(event, context):
+    return handle_request(app, event, context)
+
