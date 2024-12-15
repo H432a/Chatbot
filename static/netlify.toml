@@ -1,0 +1,10 @@
+[build]
+  publish = "static"
+  functions = "netlify/functions"
+
+[context.production.environment]
+  FLASK_APP = "app.py"
+  FLASK_ENV = "production"
+
+[functions]
+  directory = "netlify/functions"
