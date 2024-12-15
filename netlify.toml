@@ -1,9 +1,14 @@
 [build]
-  publish = "static"
+  publish = "/"
   functions = "netlify/functions"
 
+[dev]
+  functions = "netlify/functions"
+  publish = "/"
+  port = 3000
+
 [context.production.environment]
-  FLASK_APP = "app.py"
+  FLASK_APP = "netlify/functions/app.py"
   FLASK_ENV = "production"
 
 [functions]
